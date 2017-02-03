@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_picker"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.ggum.gum.activity.PickerActivity"
+    android:background="@android:color/white">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/picker_coordinator_layout">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_gravity="end|bottom"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/picker_camera_btn"
+            android:id="@+id/picker_camera_action_btn"
+            app:backgroundTint="@color/gumPink"
+            android:layout_marginBottom="21dp"
+            android:layout_marginRight="21dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_height="match_parent"
+            android:id="@+id/picker_recycler_view"
+            android:layout_gravity="center"
+            android:layout_width="330dp" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
