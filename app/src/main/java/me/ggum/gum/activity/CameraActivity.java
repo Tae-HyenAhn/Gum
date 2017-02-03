@@ -99,7 +99,6 @@ public class CameraActivity extends AppCompatActivity implements SurfaceTexture.
     private boolean isCanceled;
 
     /*  Listeners   */
-    /* control */
 
     private View.OnClickListener flashSwitchListener = new View.OnClickListener() {
         @Override
