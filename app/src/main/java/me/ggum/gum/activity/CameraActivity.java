@@ -73,6 +73,7 @@ public class CameraActivity extends AppCompatActivity implements SurfaceTexture.
     private static final boolean CAMERA_RECORD_STATE_ON = true;
     private static final boolean CAMERA_RECORD_STATE_OFF = false;
 
+
     private boolean recordState = false;
 
     private GLSurfaceView cameraSurface;
@@ -98,6 +99,7 @@ public class CameraActivity extends AppCompatActivity implements SurfaceTexture.
     private boolean isCanceled;
 
     /*  Listeners   */
+    /* control */
 
     private View.OnClickListener flashSwitchListener = new View.OnClickListener() {
         @Override
